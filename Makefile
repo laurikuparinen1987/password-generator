@@ -1,4 +1,4 @@
 all: passwordgenerator
 
 passwordgenerator: passwordgenerator.c
-    gcc passwordgenerator.c -o passwordgenerator
+        gcc passwordgenerator.c -o passwordgenerator
