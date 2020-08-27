@@ -39,7 +39,7 @@ void main(int argc, char **argv)
         "1234567890",  // numbers
         "abcdefghijklmnoqprstuvwyzx",  // lowercase
         "ABCDEFGHIJKLMNOQPRSTUYWVZX",  // uppercase
-        "!@#$%^&*(){}[]:<>?,./",    // symbols
+        "!@#$₤£€%^ˇ&*(){}[]:<>?,./|\\.=",    // symbols
     };
     const size_t numGroups = sizeof(groups)/sizeof(groups[0]);
     srand((unsigned int)(time(NULL)));
